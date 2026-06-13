@@ -1,0 +1,2 @@
+include preinstall_hook.py
+recursive-include scripts *.py
